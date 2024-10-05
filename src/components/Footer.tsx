@@ -1,10 +1,10 @@
-import logo from '../assets/Logo.svg'
+
 
 function Footer() {
   return (
     <footer className="text-gray-500 bg-gradient-to-r from-blue-50 via-blue-100 to-blue-50 px-4 py-5 max-w-screen-xl mx-auto md:px-8">
       <div className="max-w-lg sm:mx-auto sm:text-center">
-        <img src={logo} className="w-32 sm:mx-auto" />
+      <h2 className="font-bold text-wrap text-red-600 text-2xl italic">Akethu</h2>
         <p className="leading-relaxed mt-2 text-[15px]">
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
         </p>
@@ -19,3 +19,4 @@ function Footer() {
 }
 
 export default Footer;
+

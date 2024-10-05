@@ -9,7 +9,7 @@ const Navbar = ({handleMenuToggle, menuOpen}: any) => {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img className="h-8 w-auto" src={logo} alt="Company logo" />
+             <h2 className="font-bold text-wrap text-red-600 text-2xl italic">Akethu</h2>
             </a>
           </div>
           <div className="flex lg:hidden">

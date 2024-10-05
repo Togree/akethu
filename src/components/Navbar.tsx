@@ -38,7 +38,7 @@ const Navbar = ({handleMenuToggle, menuOpen}: any) => {
             </button>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
-            {["Trackgree", "Marketing", "Development"].map((item) => (
+            {[].map((item) => (
               <a
                 key={item}
                 href="#"

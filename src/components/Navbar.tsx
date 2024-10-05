@@ -1,4 +1,4 @@
-import logo from "../assets/Logo.svg";
+
 const Navbar = ({handleMenuToggle, menuOpen}: any) => {
   return (
     <header className="absolute inset-x-0 top-0 z-50">

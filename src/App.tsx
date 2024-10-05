@@ -48,7 +48,7 @@ function App() {
           </motion.section>
 
           <motion.a
-            href="javascript:void(0)"
+            href="https://trackgree.com/"
             className="my-4 py-2 px-4 text-center text-white font-medium bg-red-600 duration-150 hover:bg-red-500 active:bg-red-700 rounded-lg shadow-lg hover:shadow-none"
             initial={{ opacity: 0, scale: 0.8 }} // Initial animation values
             animate={{ opacity: 1, scale: 1 }} // Animate to these values

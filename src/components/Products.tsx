@@ -1,4 +1,4 @@
-import React from "react";
+
 import logo1 from "../assets/gps-tracking.svg";
 import logo2 from "../assets/vehicle-tracking.svg";
 import logo3 from "../assets/tracker.svg";

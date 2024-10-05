@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import { motion } from "framer-motion"; // Import Framer Motion
 
 import Contact from "./components/Contact";
@@ -6,11 +6,12 @@ import Offers from "./components/Offers";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Products from "./components/Products";
-import CTA from "./components/Cta";
+
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [pageLoaded, setPageLoaded] = useState(false); // Track first page load
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [, setPageLoaded] = useState(false); // Track first page load
 
   const handleMenuToggle = () => {
     setMenuOpen(!menuOpen);

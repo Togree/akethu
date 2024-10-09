@@ -26,7 +26,7 @@ function Products() {
   ];
 
   return (
-    <section className="mt-16 mx-auto px-6 max-w-screen-xl md:px-12">
+    <section className="mt-16 mx-auto px-6 max-w-screen-xl md:px-12" id="trackers">
       <div className="text-center">
         <h1 className="text-4xl font-bold text-gray-800">
           GPS Tracking Solution
@@ -41,20 +41,25 @@ function Products() {
         {posts.map((item, key) => (
           <article
             key={key}
-            className="bg-white shadow-md rounded-lg overflow-hidden transition-transform duration-300 hover:scale-105"
+            className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform duration-300 hover:scale-105"
           >
             <a href={item.href}>
               <img
                 src={item.img}
                 loading="lazy"
                 alt={item.title}
-                className="w-full h-52 object-cover"
+                className="w-full h-52 object-cover transition duration-300 transform hover:scale-110"
               />
               <div className="p-6">
                 <h3 className="text-2xl font-semibold text-gray-900">
                   {item.title}
                 </h3>
                 <p className="mt-3 text-gray-500">{item.desc}</p>
+                <div className="mt-4">
+                  {/* <button className="bg-red-600 text-white py-2 px-4 rounded-lg transition duration-300 hover:bg-red-700">
+                    Learn More
+                  </button> */}
+                </div>
               </div>
             </a>
           </article>
